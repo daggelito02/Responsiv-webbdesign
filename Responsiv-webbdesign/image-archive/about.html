@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>FejkNews</title>
+        <link rel="icon" href="./favicon.png" sizes="48x48" type="image/png">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- Skip to main content-länk -->
+        <a href="#main-content" class="skip-link">Hoppa till huvudinnehåll</a>
+        <header>
+            <div class="logo-container" id="top">
+                <a href="index.html#top">
+                    <img alt="FejkNews logotype" src="./images/feljnews.png" class="logo">
+                </a>
+            </div>
+            <nav class="top-menu">
+                <div class="top-menu-button-container">
+                    <button aria-controls="menu" 
+                        aria-expanded="false" 
+                        aria-label="Öppna eller stäng menyn"
+                        class="top-menu-button" id="menu-toggle">
+                        <span id="button-toggle" class="material-symbols-outlined menu">menu</span>
+                        <span class="button-text">Meny</span>
+                    </button>
+                </div>
+                <ul class="top-menu-list menu-dropdown" id="menu">
+                    <li class="top-menu-item">
+                        <a class="top-menu-link" href="index.html">
+                            <span class="material-symbols-outlined home">home</span>
+                            <span class="top-menu-text">Senaste</span>
+                        </a>
+                    </li>
+                    <li class="top-menu-item">
+                        <a class="top-menu-link" href="economy.html">Ekonomi</a>
+                    </li>
+                    <li class="top-menu-item">
+                        <a class="top-menu-link" href="sport.html">Sport</a>
+                    </li>
+                    <li class="top-menu-item">
+                        <span class="top-menu-link selected">Om oss</span>
+                    </li>
+                    <li class="top-menu-item">
+                        <a class="top-menu-link" href="tip.html">Faktagransknings tips</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main-content" class="main-content-area  main-content-area--center">
+            <section class="news-page-content">
+                <h1>Om oss</h1>
+                <figure class="about-image">
+                    <img src="images/nyhetsteamet.png" alt="Nyhetsredaktionen på Fejk News">
+                </figure>
+                <h2>Välkommen till Fejk News, nyhetssajten där inget är riktigt - och det är hela poängen.</h2>
+                    <p class="ingress">
+                        Vi lever i en tid där det är enklare än någonsin att skapa övertygande, men falska, nyheter. 
+                        Med hjälp av AI-verktyg och smart teknologi kan vem som helst fabricera historier som ser 
+                        trovärdiga ut, men som helt saknar verklighetsgrund. <br>Det är här vi kommer in.
+                    </p>
+                    <p>
+                        På Fejk News skapar vi medvetet fejkade nyheter för att belysa hur enkelt det är att manipulera 
+                        information och hur viktigt det är att kritiskt granska allt du läser. Våra nyheter är ofta 
+                        underhållande, ibland lite absurda, men alltid skapade med ett syfte: att få dig att tänka till. 🧠✨
+                    </p>
+                    <p>
+                        Vårt mål är inte att lura dig - det är att ge dig insikt. Genom att läsa våra "nyheter" vill vi att 
+                        du ska börja ställa frågor som:
+                    </p>
+                    <ul class="about-list">
+                        <li>Kan detta verkligen stämma?</li>
+                        <li>Vem står bakom nyheten?</li>
+                        <li>Hur kan jag dubbelkolla fakta?</li>
+                    </ul>
+                    <p>
+                        Så nästa gång du snubblar över en sensationell rubrik eller en nyhet som känns "för bra för att vara 
+                        sann" (eller i vårt fall, för knasig för att vara sann), tänk på oss och ta ett extra varv i faktagranskningen.
+                    </p>
+                    
+                    <h3>Kontaktuppgifter</h3>
+                    <address class="about-address">
+                        
+                        <p>Har du frågor, synpunkter eller bara vill skicka ett roligt tips? Hör av dig!</p>
+                        <p class="about-address-title">Fejk News Media AB</p>
+                        <p>Skeptikergatan 42
+                            <br>
+                            123 45 Fejktown, Sverige
+                        </p>
+                        <p>E-post: <a href="mailto:info@fajknews.se">info@fejk.se</a></p>
+                        <p>Telefon: <a href="tel:+46701234567">+46 (0)70-123 45 67</a></p>
+                    </address>
+
+                    <p>
+                    Vi uppskattar dina tankar - och vi hoppas att våra nyheter får dig att tänka till. Tack för att du 
+                    hjälper oss sprida insikten om vikten av källkritik.
+                    </p>
+                    <p>
+                    "Allt du läser är inte sant - men här vet du åtminstone att det är fejk!" 😂
+            </section>
+        </main>
+        <footer>
+            <section class="footer-section">
+                <h2 class="footer-text">
+                    All rättigheter tillhör FejkNews 
+                    <span class="material-symbols-outlined">copyright</span>
+                    och är fria att använda.
+                </h2>
+            </section>
+            <div id="cookie-consent-terms" class="cookie-container">
+               <p>
+                    Vi spar inget användardata men för GPRs skull behöver du godkänna vår policy! 
+                </p>
+                <a class="accept-cookie-link" target="_blank" href="https://en.wikipedia.org/wiki/Acceptable_use_policy">
+                    Läs mer om policy<span class="material-symbols-outlined open-new-window">open_in_new</span></a>
+                <button id="accept-cookie" class="button-accept">Acceptera</button>
+            </div>
+            <script src="javascript/main.js"></script>
+            <script src="javascript/cookie_consent.js"></script>
+        </footer>
+    </body>
+</html>

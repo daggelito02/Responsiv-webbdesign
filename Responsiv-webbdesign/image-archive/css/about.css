@@ -1,0 +1,27 @@
+.about-image {
+    max-width: 45%;
+    float: inline-end;  /* Så text flyter runt om bilder */
+    margin: .1rem 0 0 2rem;
+}
+.about-list {
+    margin: .5rem 1rem 1rem -1.4rem;
+}
+.about-address {
+    font-style: normal;
+    margin-bottom: 1.5rem;
+}
+.about-address p {
+    margin: 0 0 .3rem;
+}
+.about-address h3 + p {
+    margin-bottom: 1.5rem;
+}
+.about-address a {
+    color: #333;
+}
+.about-address a:hover {
+    background-color: var(--color-link-hover);
+}
+.about-address-title {
+    font-weight: 600;
+}

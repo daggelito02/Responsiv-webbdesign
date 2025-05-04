@@ -1,0 +1,182 @@
+/* gömmer compact view knappen för allt över 768px (över stående ipad mini) */
+.top-menu-button-container {
+    display: none;
+}
+/* Style för  compact view */
+@media (max-width: 768px) {
+    .top-menu-button-container {
+        display: block;
+    }
+    .logo-container, .main-content-area, .top-menu-list {
+        padding: 0 var(--frame-margin-or-padding-upto-768);
+    }
+    .top-menu-item:nth-child(4) {
+        /* För att minus ska fungera framför variablen */
+        margin-left: calc(1rem - 1rem - var(--frame-margin-or-padding-upto-768));
+    }
+    .top-menu-button-container {
+        padding-left: calc(var(--frame-margin-or-padding-upto-768) - .55rem);
+    }
+    .top-menu-button {
+        background-color: var(--color-main-white);
+        border: none;
+        padding: 0 2px;
+        min-height: 45.1875px;
+        max-height: 45.1875px;
+        display: block; 
+        width: 100%;
+        text-align: left;
+    }
+     .top-menu-button .button-text {
+        display: inline-block;
+        position: relative;
+        margin: 0;
+        padding-left: 2px;
+        top: -6px;
+        color: var(--color-main-black);
+    }
+    .top-menu-list{
+        display: none;
+    }
+    .top-menu-list.open {
+        display: block;
+    }
+    .material-symbols-outlined.menu {
+        font-size: 2rem;
+        color: var(--color-base-font);
+        padding: 0;
+        right: 0;
+        top: 4px;
+    }
+    .top-menu-item {
+        border-bottom: 1px solid var(--color-border);
+        /* För att minus ska fungera framför variablen */
+        margin: 0 calc(1rem - 1rem - var(--frame-margin-or-padding-upto-768)); 
+        padding-left: calc(var(--frame-margin-or-padding-upto-768) - 4px);
+    }
+    .top-menu-item:first-child {
+        border-top: 1px solid var(--color-border);
+        padding-left: calc(var(--frame-margin-or-padding-upto-768) - 6px);
+        margin: 0 calc(.7rem - 1rem - var(--frame-margin-or-padding-upto-768)); 
+    }
+    .top-menu-item:last-child {
+        border-bottom: none;
+    }
+    .top-menu-link,
+    .top-menu-link:visited  {
+        padding: 8px 5px;
+        margin: 0;
+        display: block;
+        max-width: 99%;
+        position: relative;
+    }
+    .top-menu-link.selected, 
+    .top-menu-link.selected:hover {
+        background-color: var(--color-main-background);
+        color: var(--color-base-font);
+        border: none;
+        text-decoration: none;
+        border-left: solid 3px #333;
+        display: block;
+        margin: 0 calc(1.25rem - 1rem - var(--frame-margin-or-padding-upto-768)); 
+        padding-left: calc(var(--frame-margin-or-padding-upto-768) - 2px);
+    }
+    .top-menu-item:first-child .top-menu-link.selected, 
+    .top-menu-item:first-child .top-menu-link.selected:hover {
+        margin: 0 calc(27px - 1rem - var(--frame-margin-or-padding-upto-768)); 
+        padding-left: calc(var(--frame-margin-or-padding-upto-768) - 10px);
+    }
+    .top-menu-link.selected--news .level2indicator {
+        margin-bottom: 0;
+        position: relative;
+    }
+    .top-menu-link.selected--news .level2indicator::after {
+        content: '';
+        display: inline-block;
+        border-bottom: 2px solid var(--colo-link-border-bottom);
+        position: absolute;
+        left: 0;
+        bottom: -11px;
+        height: 2px;
+        width: 105%;
+        z-index: 0;
+    }
+    .top-menu-link.selected--news:focus-visible .level2indicator {
+        border-bottom: 2px solid transparent;
+    }
+    .top-menu-link:hover, 
+    .top-menu-link:focus {
+        background-color: var(--color-main-background);
+        color: var(--color-base-font);
+        border: none;
+        text-decoration: underline;
+    }
+    .top-menu-link.selected--news {
+        margin-bottom: 0;
+        border: none;
+    }
+    .top-menu-text { 
+        padding-left: 1.8rem;
+    }
+    .material-symbols-outlined.home {
+        color: var(--color-main-black)!important;
+        background: var(--color-main-white)!important;
+        text-decoration: none;
+        top: 8px;
+        left: 5px;
+    }
+    .selected .material-symbols-outlined.home {
+        top: 8px;
+        left: 15px;
+    }
+    .top-menu-link.selected--news .material-symbols-outlined.home {
+        top: -2px;
+        left: 0px;
+    }
+    /* för att dölja hover under husikonen */
+    .material-symbols-outlined.home:after {
+        content: '';
+        display: block;
+        height: 2px;
+        background: #fff;
+        width: 100%;
+        bottom: 0px;
+        position: absolute;
+    }
+}
+@media (max-width: 390px) {
+    .logo-container, .main-content-area, .top-menu-list {
+        padding: 0 var(--frame-margin-or-padding-upto-390);
+    }
+    .top-menu-item:first-child {
+        border-top: 1px solid var(--color-border);
+        padding-left: calc(var(--frame-margin-or-padding-upto-390) - 4px);
+        margin: 0 calc(.6rem - 1rem - var(--frame-margin-or-padding-upto-390)); 
+    }
+    .top-menu-item:first-child .top-menu-link.selected, 
+    .top-menu-item:first-child .top-menu-link.selected:hover {
+        margin: 0 calc(26.5px - 1rem - var(--frame-margin-or-padding-upto-390)); 
+        padding-left: calc(var(--frame-margin-or-padding-upto-390) - 5px);
+    }
+    .top-menu-item:nth-child(4) {
+        /* För att minus ska fungera framför variablen */
+        margin-left: calc(1rem - 1rem - var(--frame-margin-or-padding-upto-390));
+    }
+    .top-menu-button-container {
+        padding-left: calc(var(--frame-margin-or-padding-upto-390) - .55rem);
+    }
+    .top-menu-item {
+        border-bottom: 1px solid var(--color-border);
+        /* För att minus ska fungera framför variablen */
+        margin: 0 calc(1rem - 1rem - var(--frame-margin-or-padding-upto-390)); 
+        padding-left: calc(var(--frame-margin-or-padding-upto-390) - 4px);
+    }
+    .top-menu-link.selected, 
+    .top-menu-link.selected:hover {
+        margin: 0 calc(1.25rem - 1rem - var(--frame-margin-or-padding-upto-390));
+        padding-left: calc(var(--frame-margin-or-padding-upto-390) - 2px);
+    }
+    .selected .material-symbols-outlined.home {
+        left: 8px;
+    }
+}
