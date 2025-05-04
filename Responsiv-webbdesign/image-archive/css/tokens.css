@@ -4,15 +4,16 @@
     /* --news-page-content-max-width: 1024px; not in use */
 
     /* Color units */
-    --color-main-background: #fff;
+    --color-main-background: #000;
     --color-main-white: #fff;
     --color-main-black: #222;
-    --color-base-font: #333;
-    --colo-link-selected-background: #222;
+    --color-base-font: #fff;
+    --colo-link-selected-background: #333;
     --colo-link-focus-background: #cdcdcd;
-    --colo-link-border-bottom: #aaa;
-    --color-link-hover: #ededed;
-    --color-border: #e0e0e0;
+    --colo-link-border-bottom: #777;
+    --colo-link-border: #888;
+    --color-link-hover: #fff;
+    --color-border: #fff;
     --color-border-black: #999;
 
     --color-button-accept: #0051A8;

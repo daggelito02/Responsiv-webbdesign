@@ -10,6 +10,7 @@ body {
         "footer footer footer";
     background-color: var(--color-main-background);
     color: var(--color-base-font);
+    margin-top: 1rem;
     margin-bottom: 2rem;
 }
 header{
@@ -30,6 +31,16 @@ header{
 .main-content-area--center {
     display: flex;
     justify-content: center;
+}
+.hero {
+    background-image: url('../images/hero_bg.webp');
+    min-height: 400px;
+    max-height: 400px;
+    width: 100%;
+    height: inherit;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .breadcrumb-list {
     padding: 0;
@@ -96,7 +107,6 @@ p {
     position: relative;
     top: 3px;
     padding-left: 4px;
-    background: var(--color-main-white);
     right: 5px;
     color: var(--color-base-font);
 }

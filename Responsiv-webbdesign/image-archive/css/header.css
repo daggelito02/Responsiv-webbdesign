@@ -1,13 +1,13 @@
 .logo {
-    height: 6rem;
+    height: 4rem;
 }
 .top-menu-list, .breadcrumb-list {
     display: flex;
     list-style-type: none; 
     margin: 0;
 }
-.top-menu-item:nth-child(4) {
-    margin-left: auto;  /* Skapar utrymme mellan de första tre osel de sista två */
+.top-menu-item:nth-child(5) {
+    margin-left: auto;  /* Skapar utrymme mellan de första tre och de sista två */
 }
 .top-menu-link,
 .top-menu-link:visited {
@@ -21,12 +21,13 @@
 .top-menu-link:hover {
     background-color: var(--color-link-hover);
     border-bottom: 2px solid var(--color-base-font);
+    color: var(--color-main-black);
 }
 .top-menu-link.selected,
 .top-menu-link.selected:hover {
     background-color: var(--colo-link-selected-background);
     color: var(--color-main-white);
-    border-bottom: 2px solid var(--colo-link-border-bottom);
+    border: 1px solid var(--colo-link-border);
 }
 .top-menu-link.selected--news {
     border-bottom: 2px solid var(--colo-link-border-bottom);
@@ -48,8 +49,8 @@
     z-index: 1;
 }
 .material-symbols-outlined.home {
-    color: var(--colo-link-selected-background);
-    background: var(--color-main-white);
+    color: var(--color-main-white);
+    background: var(--color-main-black);
     font-size: 1.3rem;
     position: absolute;
     top: 10px;

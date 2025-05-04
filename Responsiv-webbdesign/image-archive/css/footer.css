@@ -19,6 +19,6 @@ footer {
 }
 .footer-section .material-symbols-outlined {
     top: 3px;
-    left: 0px;
+    left: -2px;
     z-index: -1;
 }
