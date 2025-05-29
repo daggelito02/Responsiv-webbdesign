@@ -4,13 +4,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const acceptButton = document.getElementById('accept-cookie');
 
     // Kollar om användaren redan har accepterat kakan
-    if (!getCookie('theFejkNewsCookie')) {
+    if (!getCookie('theBildarkivetCookie')) {
         cookieBanner.style.display = 'block';
     }
 
     // Sätt kakan på Acceptera (knapp) klick
     acceptButton.addEventListener('click', function() {
-        setCookie('theFejkNewsCookie', 'true', 7); // Skickar med hur många dagar kakan ska sparas (7)
+        setCookie('theBildarkivetCookie', 'true', 7); // Skickar med hur många dagar kakan ska sparas (7)
         cookieBanner.style.display = 'none';
     });
 
