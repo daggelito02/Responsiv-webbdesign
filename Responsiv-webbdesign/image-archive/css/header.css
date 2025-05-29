@@ -7,8 +7,7 @@
     margin: 0;
 }
 .top-menu-item:nth-child(5) {
-    margin-left: auto;   /* Skapar utrymme mellan de första tre och de sista två */
-    
+    margin-left: auto;   /* Skapar utrymme mellan de första tre och de sista två */ 
 }
 .top-menu-link,
 .top-menu-link:visited {

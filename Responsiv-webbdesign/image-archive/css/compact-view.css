@@ -18,7 +18,7 @@
         padding-left: calc(var(--frame-margin-or-padding-upto-768) - .55rem);
     }
     .top-menu-button {
-        background-color: var(--color-main-white);
+        background-color: var(--color-main-background);
         border: none;
         padding: 0 2px;
         min-height: 45.1875px;
@@ -33,7 +33,8 @@
         margin: 0;
         padding-left: 2px;
         top: -6px;
-        color: var(--color-main-black);
+        color: var(--color-base-font);
+        font-weight: 600;
     }
     .top-menu-list{
         display: none;
@@ -53,6 +54,9 @@
         /* För att minus ska fungera framför variablen */
         margin: 0 calc(1rem - 1rem - var(--frame-margin-or-padding-upto-768)); 
         padding-left: calc(var(--frame-margin-or-padding-upto-768) - 4px);
+    }
+    .top-menu-item:nth-child(5) {
+        margin: 0 calc(1rem - 1rem - var(--frame-margin-or-padding-upto-768));
     }
     .top-menu-item:first-child {
         border-top: 1px solid var(--color-border);
@@ -76,10 +80,10 @@
         color: var(--color-base-font);
         border: none;
         text-decoration: none;
-        border-left: solid 3px #333;
+        border-left: solid 3px var(--color-main-white);
         display: block;
         margin: 0 calc(1.25rem - 1rem - var(--frame-margin-or-padding-upto-768)); 
-        padding-left: calc(var(--frame-margin-or-padding-upto-768) - 2px);
+        padding-left: calc(var(--frame-margin-or-padding-upto-768) - 3px);
     }
     .top-menu-item:first-child .top-menu-link.selected, 
     .top-menu-item:first-child .top-menu-link.selected:hover {
@@ -111,6 +115,10 @@
         border: none;
         text-decoration: underline;
     }
+    .top-menu-link:hover .material-symbols-outlined.home {
+        color: var(--color-main-white);
+        background-color: unset;
+    }
     .top-menu-link.selected--news {
         margin-bottom: 0;
         border: none;
@@ -119,29 +127,22 @@
         padding-left: 1.8rem;
     }
     .material-symbols-outlined.home {
-        color: var(--color-main-black)!important;
-        /* background: var(--color-main-white)!important; */
         text-decoration: none;
-        top: 8px;
+        top: 9px;
         left: 5px;
     }
     .selected .material-symbols-outlined.home {
         top: 8px;
         left: 15px;
+        background-color: unset;
+    }
+    .top-menu-link.selected:hover .material-symbols-outlined.home {
+        background: unset;
     }
     .top-menu-link.selected--news .material-symbols-outlined.home {
-        top: -2px;
+        top: -1px;
         left: 0px;
-    }
-    /* för att dölja hover under husikonen */
-    .material-symbols-outlined.home:after {
-        content: '';
-        display: block;
-        height: 2px;
-        background: #fff;
-        width: 100%;
-        bottom: 0px;
-        position: absolute;
+        color: #fff;
     }
 }
 @media (max-width: 390px) {
