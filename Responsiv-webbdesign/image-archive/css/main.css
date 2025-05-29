@@ -93,10 +93,10 @@ p {
 .italic {
     font-style: italic;
 }
-.news-grid {
+.photo-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(332.1px, 1fr)); /* Tre kolumner */
-    gap: 1rem;
+    gap: 1.5rem;
     position: relative;
     padding-top: 4rem;
 }
@@ -104,7 +104,7 @@ p {
     position: absolute;
 }
 @media (max-width: 1100px) {
-    .news-grid {
+    .photo-grid {
         grid-template-columns: repeat(auto-fit, minmax(309.1px, 1fr)); /* Blir två kolumner */
     }
 }
