@@ -2,17 +2,23 @@
 <html lang="sv">
     <head>
         <meta charset="utf-8">
+
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Bildarkivet</title>
         <link rel="icon" href="./favicon.png" sizes="48x48" type="image/png">
         <!-- Importerar googles ikon-bibliotek -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+        <link href="https://fonts.cdnfonts.com/css/darkmode-trial" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
+    <body class="body--startpage">
         <!-- Skip to main content-länk, finns på alla sidor -->
         <a href="#main-content" class="skip-link">Hoppa till huvudinnehåll</a>
         <header>
+            <!-- webbsajtens logga, finns på alla sidor och länkar till index.html -->
+            <div class="logo-container">
+              <img alt="Bildarkivet logotype" src="./assets/logo2.png" class="logo">
+          </div>
             <!-- top -->
             <nav class="top-menu">
                 <!-- En knapp med hamburger-meny-ikon för compact view, vinns på alla sidor -->
@@ -50,13 +56,34 @@
                     </li>
                 </ul>
             </nav>
-            <!-- webbsajtens logga, finns på alla sidor och länkar till index.html -->
-            <div class="logo-container">
-              <img alt="Bildarkivet logotype" src="./assets/logga.png" class="logo">
-          </div>
         </header>
         <main id="main-content" class="main-content-area">
           <section class="hero">
+            <div class="hero__container">
+              <img class="hero__img" alt="" src="./assets/hero3.JPG" >
+            </div>
+            <div class="hero__wrapper">
+              <div class="hero__features">
+                <div class="hero__features-items">
+                <h1 class="hero__header">Välkommen till oss!</h1>
+                <div class="hero__wellcome-text">
+                  <p>
+                    Letar du efter en bild som berättar en historia, fångar ett ögonblick eller väcker en känsla? 
+                    Då har du kommit rätt. Vårt bildarkiv är fyllt med skatter som bara väntar på att bli upptäckta. 
+                    Dyk in och låt kreativiteten flöda!
+                  </p>
+                  <p>
+                    One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed 
+                    into a horrible vermin.
+                  </p>
+                  <p>
+                    He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, 
+                    slightly domed and divided by arches into stiff sections.
+                  </p>
+                </div>
+                </div>
+              </div>
+          </div>
             
           </section>
         </main>

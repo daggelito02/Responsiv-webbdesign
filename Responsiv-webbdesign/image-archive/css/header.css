@@ -1,5 +1,5 @@
 .logo {
-    height: 4rem;
+    height: 2.2rem;
 }
 .top-menu-list, .breadcrumb-list {
     display: flex;
@@ -20,17 +20,19 @@
 }
 .top-menu-link:hover {
     background-color: var(--color-link-hover);
-    border-bottom: 2px solid var(--color-base-font);
+    /* border-bottom: 2px solid var(--color-base-font); */
     color: var(--color-main-black);
 }
 .top-menu-link.selected,
 .top-menu-link.selected:hover {
     background-color: var(--colo-link-selected-background);
     color: var(--color-main-white);
-    border: 1px solid var(--colo-link-border);
+    border-left: 1px solid var(--colo-link-border);
+    border-right: 1px solid var(--colo-link-border);
 }
 .top-menu-link.selected--news {
-    border-bottom: 2px solid var(--colo-link-border-bottom);
+    border-bottom: 2px solid var(--color-main-white);
+
 }
 .top-menu-link.selected:hover {
     cursor: auto;
@@ -50,7 +52,7 @@
 }
 .material-symbols-outlined.home {
     color: var(--color-main-white);
-    background: var(--color-main-black);
+    /* background: var(--color-main-black); */
     font-size: 1.3rem;
     position: absolute;
     top: 10px;

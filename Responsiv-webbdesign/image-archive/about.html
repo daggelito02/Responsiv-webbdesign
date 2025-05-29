@@ -12,12 +12,13 @@
         <!-- Skip to main content-länk -->
         <a href="#main-content" class="skip-link">Hoppa till huvudinnehåll</a>
         <header>
-            <div class="logo-container" id="top">
-                <a href="index.html#top">
-                    <img alt="FejkNews logotype" src="./images/feljnews.png" class="logo">
-                </a>
-            </div>
+            <!-- webbsajtens logga, finns på alla sidor och länkar till index.html -->
+            <div class="logo-container">
+              <img alt="Bildarkivet logotype" src="./assets/logo2.png" class="logo">
+          </div>
+            <!-- top -->
             <nav class="top-menu">
+                <!-- En knapp med hamburger-meny-ikon för compact view, vinns på alla sidor -->
                 <div class="top-menu-button-container">
                     <button aria-controls="menu" 
                         aria-expanded="false" 
@@ -27,84 +28,87 @@
                         <span class="button-text">Meny</span>
                     </button>
                 </div>
+                <!-- Meny-länk-panel, finns på alla sidor. Olika style mellan desktopvy och compact view -->
                 <ul class="top-menu-list menu-dropdown" id="menu">
                     <li class="top-menu-item">
                         <a class="top-menu-link" href="index.html">
                             <span class="material-symbols-outlined home">home</span>
-                            <span class="top-menu-text">Senaste</span>
+                            <span class="top-menu-text">Hem</span>
                         </a>
                     </li>
-                    <li class="top-menu-item">
-                        <a class="top-menu-link" href="economy.html">Ekonomi</a>
                     </li>
                     <li class="top-menu-item">
-                        <a class="top-menu-link" href="sport.html">Sport</a>
+                        <span class="top-menu-link">Ett urval</span>                    
                     </li>
                     <li class="top-menu-item">
-                        <span class="top-menu-link selected">Om oss</span>
+                        <a class="top-menu-link" href="economy.html">Street</a>
                     </li>
                     <li class="top-menu-item">
-                        <a class="top-menu-link" href="tip.html">Faktagransknings tips</a>
+                        <a class="top-menu-link" href="sport.html">Städer</a>
+                    </li>
+                    <li class="top-menu-item">
+                        <a class="top-menu-link selected" href="about.html">Om arkivet</a>
+                    </li>
+                    <li class="top-menu-item">
+                        <a class="top-menu-link" href="tip.html">Inspiration</a>
                     </li>
                 </ul>
             </nav>
         </header>
         <main id="main-content" class="main-content-area  main-content-area--center">
             <section class="news-page-content">
-                <h1>Om oss</h1>
+                <h1>Om arkivet</h1>
                 <figure class="about-image">
-                    <img src="images/nyhetsteamet.png" alt="Nyhetsredaktionen på Fejk News">
+                    <img src="test/bildgalleriet.png" alt="Nyhetsredaktionen på Fejk News">
                 </figure>
-                <h2>Välkommen till Fejk News, nyhetssajten där inget är riktigt - och det är hela poängen.</h2>
+                <h2>Välkommen till Bildgalleriet, sajten där konst och verklighet blandas på nya sätt..</h2>
                     <p class="ingress">
-                        Vi lever i en tid där det är enklare än någonsin att skapa övertygande, men falska, nyheter. 
-                        Med hjälp av AI-verktyg och smart teknologi kan vem som helst fabricera historier som ser 
-                        trovärdiga ut, men som helt saknar verklighetsgrund. <br>Det är här vi kommer in.
+                        Vi lever i en tid där konst ständigt utvecklas och där gränsen mellan det verkliga och det 
+                        digitala blir allt suddigare. Med hjälp av teknologi och kreativt tänkande skapar konstnärer 
+                        verk som inte bara är visuellt imponerande utan också tankeväckande och ofta ifrågasättande.
+                        <br>Det är här vi kommer in.
                     </p>
                     <p>
-                        På Fejk News skapar vi medvetet fejkade nyheter för att belysa hur enkelt det är att manipulera 
-                        information och hur viktigt det är att kritiskt granska allt du läser. Våra nyheter är ofta 
-                        underhållande, ibland lite absurda, men alltid skapade med ett syfte: att få dig att tänka till. 🧠✨
+                        På Bildgalleriet presenterar vi ett digitalt galleri som utmanar din uppfattning om vad konst 
+                        är och kan vara. Våra verk är både innovativa och djupgående, skapade för att väcka frågor om vår samtid, 
+                        vår relation till teknologi och vår uppfattning om verklighet och illusion. 🎨✨
                     </p>
                     <p>
-                        Vårt mål är inte att lura dig - det är att ge dig insikt. Genom att läsa våra "nyheter" vill vi att 
-                        du ska börja ställa frågor som:
+                        Vårt mål är inte att förvirra, utan att få dig att tänka djupare. Genom att utforska våra utställningar 
+                        vill vi att du ska börja ställa frågor som:
                     </p>
                     <ul class="about-list">
-                        <li>Kan detta verkligen stämma?</li>
-                        <li>Vem står bakom nyheten?</li>
-                        <li>Hur kan jag dubbelkolla fakta?</li>
+                        <li>Vad är konstens syfte i dagens samhälle?</li>
+                        <li>Hur påverkar digitalisering och teknologi vår uppfattning om konst?</li>
+                        <li>Hur kan vi tolka och förstå konst på ett nytt sätt i en snabbt föränderlig värld?</li>
                     </ul>
                     <p>
-                        Så nästa gång du snubblar över en sensationell rubrik eller en nyhet som känns "för bra för att vara 
-                        sann" (eller i vårt fall, för knasig för att vara sann), tänk på oss och ta ett extra varv i faktagranskningen.
+                        Så nästa gång du besöker vårt galleri online, tänk på oss och ta ett
+                        ögonblick för att verkligen reflektera över vad du ser och vad det betyder.
                     </p>
                     
                     <h3>Kontaktuppgifter</h3>
                     <address class="about-address">
                         
                         <p>Har du frågor, synpunkter eller bara vill skicka ett roligt tips? Hör av dig!</p>
-                        <p class="about-address-title">Fejk News Media AB</p>
-                        <p>Skeptikergatan 42
+                        <p class="about-address-title">Bildgalleriet</p>
+                        <p>Konstgatan 5
                             <br>
-                            123 45 Fejktown, Sverige
+                            123 45 Kreativstad, Sverige
                         </p>
-                        <p>E-post: <a href="mailto:info@fajknews.se">info@fejk.se</a></p>
+                        <p>E-post: <a href="mailto:info@fajknews.se">info@bildgalleriet.se</a></p>
                         <p>Telefon: <a href="tel:+46701234567">+46 (0)70-123 45 67</a></p>
                     </address>
 
                     <p>
-                    Vi uppskattar dina tankar - och vi hoppas att våra nyheter får dig att tänka till. Tack för att du 
-                    hjälper oss sprida insikten om vikten av källkritik.
+                        Har du frågor, synpunkter eller vill du veta mer om våra aktuella utställningar? Tveka inte att kontakta oss!
                     </p>
-                    <p>
-                    "Allt du läser är inte sant - men här vet du åtminstone att det är fejk!" 😂
             </section>
         </main>
         <footer>
             <section class="footer-section">
                 <h2 class="footer-text">
-                    All rättigheter tillhör FejkNews 
+                    All rättigheter tillhör Bildgalleriet 
                     <span class="material-symbols-outlined">copyright</span>
                     och är fria att använda.
                 </h2>

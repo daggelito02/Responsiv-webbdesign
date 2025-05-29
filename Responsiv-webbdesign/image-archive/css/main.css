@@ -1,6 +1,6 @@
 /* Alla var(token) värden hämtas från tokens.css filen */
 body {
-    font-family: Arial, Helvetica, sans-serif; /* default font-familj */
+    font-family: 'Darkmode Trial', Arial, Helvetica, sans-serif; /* default font-familj */
     font-size: var(--body-font-size);
     display: grid;
     grid: auto auto auto / 1fr minmax(1px, var(--main-aria-pagetype-max-width)) 1fr;
@@ -13,16 +13,27 @@ body {
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
+.body--startpage {
+    grid: auto auto auto / 1fr 1fr 1fr;
+    grid-template-areas: 
+        "header header header"
+        "main-content main-content main-content"
+        "footer footer footer";
+}
+.body--startpage .main-content-area {
+    margin: 0;
+    padding: 0;
+}
 header{
     grid-area: header; /* mappar header kontainern grid rad */
 }
 .logo-container {
     background-color: var(--color-main-background);
-    margin: 1rem 0;
+    margin: .5rem 0 1.5rem;
     display: flex;
     justify-content: center;
 }
-.logo-container, .main-content-area, .top-menu-list {
+ .main-content-area, .top-menu-list {
     padding: 0 2rem;
 }
 .main-content-area {
@@ -32,7 +43,7 @@ header{
     display: flex;
     justify-content: center;
 }
-.hero {
+/* .hero {
     background-image: url('../images/hero_bg.webp');
     min-height: 400px;
     max-height: 400px;
@@ -41,7 +52,7 @@ header{
     background-position-x: 50%;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 .breadcrumb-list {
     padding: 0;
     margin-top: .5rem;
@@ -51,7 +62,7 @@ header{
     background-color: var(--color-link-hover);
 }
 .breadcrumb-list a:visited {
-    color: var(--color-main-black);
+    color: var(--color-main-white);
 }
 .breadcrumb-item {
     padding-right: .5rem;

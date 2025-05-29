@@ -120,7 +120,7 @@
     }
     .material-symbols-outlined.home {
         color: var(--color-main-black)!important;
-        background: var(--color-main-white)!important;
+        /* background: var(--color-main-white)!important; */
         text-decoration: none;
         top: 8px;
         left: 5px;

@@ -12,13 +12,13 @@
         <!-- Skip to main content-länk -->
         <a href="#main-content" class="skip-link">Hoppa till huvudinnehåll</a>
         <header>
-            <!-- Id och #top på url är för att skärmläsare inte ska tycke det är en redundant länk -->
-            <div class="logo-container" id="top">
-                <a href="index.html#top">
-                    <img alt="FejkNews logotype" src="./images/feljnews.png" class="logo">
-                </a>
-            </div>
+            <!-- webbsajtens logga, finns på alla sidor och länkar till index.html -->
+            <div class="logo-container">
+              <img alt="Bildarkivet logotype" src="./assets/logo2.png" class="logo">
+          </div>
+            <!-- top -->
             <nav class="top-menu">
+                <!-- En knapp med hamburger-meny-ikon för compact view, vinns på alla sidor -->
                 <div class="top-menu-button-container">
                     <button aria-controls="menu" 
                         aria-expanded="false" 
@@ -28,31 +28,36 @@
                         <span class="button-text">Meny</span>
                     </button>
                 </div>
+                <!-- Meny-länk-panel, finns på alla sidor. Olika style mellan desktopvy och compact view -->
                 <ul class="top-menu-list menu-dropdown" id="menu">
                     <li class="top-menu-item">
                         <a class="top-menu-link" href="index.html">
                             <span class="material-symbols-outlined home">home</span>
-                            <span class="top-menu-text">Senaste</span>
+                            <span class="top-menu-text">Hem</span>
                         </a>
                     </li>
-                    <li class="top-menu-item">
-                        <span class="top-menu-link selected">Ekonomi</span>
                     </li>
                     <li class="top-menu-item">
-                        <a class="top-menu-link" href="sport.html">Sport</a>
+                        <a class="top-menu-link" href="economy.html">Ett urva</a>             
+                  </li>
+                    <li class="top-menu-item">
+                        <span class="top-menu-link selected">Street</span> 
                     </li>
                     <li class="top-menu-item">
-                        <a class="top-menu-link" href="about.html">Om oss</a>
+                        <a class="top-menu-link" href="sport.html">Städer</a>
                     </li>
                     <li class="top-menu-item">
-                        <a class="top-menu-link" href="tip.html">Faktagransknings tips</a>
+                        <a class="top-menu-link" href="about.html">Om arkivet</a>
+                    </li>
+                    <li class="top-menu-item">
+                        <a class="top-menu-link" href="tip.html">Inspiration</a>
                     </li>
                 </ul>
             </nav>
         </header>
         <main id="main-content" class="main-content-area">
             <section class="news-grid">
-                <h1 class="header-grid">Ekonomi</h1>
+                <h1 class="header-grid">Street</h1>
                 <a href="./articles/economy/triss.html" class="news-article-link">
                     <article class="news-article">
                         <figure class="news-article-image">

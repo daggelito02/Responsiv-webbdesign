@@ -12,12 +12,13 @@
         <!-- Skip to main content-länk -->
         <a href="#main-content" class="skip-link">Hoppa till huvudinnehåll</a>
         <header>
-            <div class="logo-container" id="top">
-                <a href="../../index.html#top">
-                    <img alt="FejkNews logotype" src="../../images/feljnews.png" class="logo">
-                </a>
-            </div>
+            <!-- webbsajtens logga, finns på alla sidor och länkar till index.html -->
+            <div class="logo-container">
+              <img alt="Bildarkivet logotype" src="../../assets/logo2.png" class="logo">
+          </div>
+            <!-- top -->
             <nav class="top-menu">
+                <!-- En knapp med hamburger-meny-ikon för compact view, vinns på alla sidor -->
                 <div class="top-menu-button-container">
                     <button aria-controls="menu" 
                         aria-expanded="false" 
@@ -27,44 +28,47 @@
                         <span class="button-text">Meny</span>
                     </button>
                 </div>
+                <!-- Meny-länk-panel, finns på alla sidor. Olika style mellan desktopvy och compact view -->
                 <ul class="top-menu-list menu-dropdown" id="menu">
                     <li class="top-menu-item">
-                        <a class="top-menu-link" href="../../index.html">
+                        <a class="top-menu-link" href="index.html">
                             <span class="material-symbols-outlined home">home</span>
-                            <span class="top-menu-text">Senaste</span>
+                            <span class="top-menu-text">Hem</span>
                         </a>
                     </li>
-                    <li class="top-menu-item">
-                        <a class="top-menu-link selected--news" href="../../economy.html">
-                            <span class="level2indicator">Ekonomi</span>
-                        </a>
                     </li>
                     <li class="top-menu-item">
-                        <a class="top-menu-link" href="../../sport.html">Sport</a>
+                        <a class="top-menu-link" href="economy.html">Ett urva</a>             
+                  </li>
+                  <a class="top-menu-link selected--news" href="../../economy.html">
+                    <span class="level2indicator">Street</span>
+                </a>
+                    <li class="top-menu-item">
+                        <a class="top-menu-link" href="sport.html">Städer</a>
                     </li>
                     <li class="top-menu-item">
-                        <a class="top-menu-link" href="../../about.html">Om oss</a>
+                        <a class="top-menu-link" href="about.html">Om arkivet</a>
                     </li>
                     <li class="top-menu-item">
-                        <a class="top-menu-link" href="../../tip.html">Faktagransknings tips</a>
+                        <a class="top-menu-link" href="tip.html">Inspiration</a>
                     </li>
                 </ul>
             </nav>
         </header>
+        
         <main id="main-content" class="main-content-area main-content-area--center">
             <section class="news-page-article">
                 <nav>
                     <ol class="breadcrumb-list">
-                        <li class="breadcrumb-item"><a href="../../economy.html">Ekonomi</a></li>
+                        <li class="breadcrumb-item"><a href="../../economy.html">Street</a></li>
                         <li class="breadcrumb-item">&gt;</li>
                         <li class="breadcrumb-item">
-                            Statliga anställda kan få trisslotter som bonus - 
-                            chans till miljoner eller en kaffe och bulle?
+                            Hotell
                         </li>
                     </ol>
                 </nav>
                 <figure class="news-page-article__image">
-                    <img src="../../images/triss.png" alt="Glada personer som skrapar triss">
+                    <img src="../../test/hotel.jpg" alt="Glada personer som skrapar triss">
                     <div class="news-article-datetime news-article-datetime--article">
                         <p>
                             Publiserad:
@@ -72,57 +76,23 @@
                         </p>
                     </div>
                 </figure>
-                <h1>Statliga anställda kan få trisslotter som bonus - chans till miljoner eller en kaffe och bulle?</h1>
+                <h1>Accidentally Wes Anderson och Hotel Belvédère</h1>
                 <p class="news-page-article__ingress">
-                    I ett oväntat drag har regeringen föreslagit att statliga anställda nästa år kan få trisslotter 
-                    som bonus istället för den traditionella ekonomiska ersättningen. Tanken är att skapa en kombination av 
-                    "spänning och belöning" för de som arbetar inom staten - men mottagandet har varit minst sagt blandat.
+                    "Hotel Belvédère, beläget vid Furkapasset i Schweiz, är en verklig ikon för stil och nostalgi, 
+                    perfekt för den som älskar den unika estetiken från Accidentally Wes Anderson. Med sin symmetri, 
+                    dämpade färgpalett och 
+                    tidlösa arkitektur ser hotellet ut att vara taget direkt från en av Wes Andersons filmvärldar.
                 </p>
-                <h2>Chansen att bli miljonär på jobbet</h2>
                 <p>
-                    En talesperson för regeringen beskriver förslaget som "ett kreativt sätt att lyfta motivationen bland 
-                    statliga anställda". Istället för en traditionell bonus får medarbetarna möjligheten att skrapa fram upp 
-                    till 25 000 kronor i månaden i 25 år. "Tänk dig att bli miljonär på kafferasten!" säger talespersonen.
-                    <br>
-                    Men inte alla är lika övertygade. Kritiker menar att det finns en viss ironi i att använda 
-                    lotteri som en form av ekonomisk kompensation, särskilt när de flesta lotter endast genererar 
-                    en symbolisk vinst på 30 kronor - lagom för en kaffe och en bulle.
+                    Den avlägsna platsen och den dramatiska bakgrunden av Alpernas branta berg och vindlande vägar gör 
+                    det till en magnet för fotografer och resenärer som söker det extraordinära i det vardagliga.
                 </p>
 
-                <h2>Bonus eller en lek med oddsen?</h2> 
                 <p>
-                    Statistiken visar att chansen att vinna storvinsten på en trisslott är ungefär 1 på 2,6 miljoner. 
-                    För många statliga anställda låter det mer som en lek med oddsen än en verklig bonus.
-                    <br>
-                    "Jag jobbar hårt hela året, och nu ska jag hoppas på tur för att få något extra? Det känns lite 
-                    som att man gör narr av oss," säger en tjänsteman som vill vara anonym.
-                </p>
-
-                <h2>Ekonomisk kreativitet eller ett skämt?</h2>
-                <p>
-                    Ekonomer har delade åsikter om förslaget. Vissa menar att det kan skapa ett positivt samtalsämne 
-                    och öka engagemanget på arbetsplatsen, medan andra tycker att det är ett tecken på att budgetarna 
-                    är för strama.
-                    <br>
-                    "Det är som att ge bort en fiskespö istället för fisk - men vad händer om sjön är tom?" frågar sig 
-                    en ekonomiexpert.
-                </p>
-                <h2>Reaktionerna på sociala medier</h2>
-                <p>
-                    På sociala medier har förslaget blivit en snackis. En del skämtar om att de nu planerar att ta med 
-                    turstrumpor till jobbet, medan andra föreslår att regeringen borde börja skrapa trisslotter för att 
-                    finansiera statsbudgeten.
-                </p>
-                <div class="news-page-article__divider"></div>
-                <h2>Hur ser framtiden ut för bonusförslaget?</h2>
-                <p>
-                    Än är inget beslutat, och regeringen har lovat att lyssna på de anställdas synpunkter innan de går 
-                    vidare. Om förslaget går igenom kommer det sannolikt att bli ett unikt experiment i svensk 
-                    arbetsmarknadspolitik.
-                    <br>
-                    Så nästa gång du ser en statligt anställd köpa en lott, kanske det inte bara är för nöjets skull - 
-                    det kan vara årets bonus som står på spel. 
-                    <br>🎲 💸
+                    Hotel Belvédère har dessutom en rik historia och har stått som en symbol för tidiga alpresor, 
+                    där resenärer på 1900-talet kunde njuta av den spektakulära utsikten över Rhônegletscher. 
+                    Även om hotellet inte längre är öppet för gäster, fortsätter det att fascinera 
+                    och inspirera dem som letar efter platser med en känsla av filmisk magi och nostalgisk charm."
                 </p>
             </section>
         </main>
