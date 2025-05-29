@@ -108,8 +108,8 @@ p {
         grid-template-columns: repeat(auto-fit, minmax(309.1px, 1fr)); /* Blir två kolumner */
     }
 }
-.news-page-content {
-    max-width: var(--news-page-content-max-width);
+.photo-page-content {
+    max-width: var(--photo-page-content-max-width);
     width: 100%;
 }
 /* Default styles för googles material ikoner */

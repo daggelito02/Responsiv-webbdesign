@@ -1,7 +1,7 @@
 :root {
     /* Size units */
     --main-aria-pagetype-max-width: 1440px;
-    /* --news-page-content-max-width: 1024px; not in use */
+    /* --photo-page-content-max-width: 1024px; not in use */
 
     /* Color units */
     --color-main-background: #000;
@@ -29,8 +29,8 @@
     --h2-font-size: 1.5rem;
     --h3-font-size: 1.125rem;
     --datetime-font-size: .75rem;
-    --news-article-header-font-size: 1rem;
-    --news-page-article-h2-font-size: 1.5rem;
+    --photo-article-header-font-size: 1rem;
+    --photo-page-article-h2-font-size: 1.5rem;
 
     /* Margin and padding units */
     --frame-margin-or-padding-upto-768: 1.5rem;

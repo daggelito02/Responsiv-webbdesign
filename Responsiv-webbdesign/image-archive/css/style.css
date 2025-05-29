@@ -14,6 +14,6 @@ namnen på filerna ska vara talande för området css:en berör */
 @import url("compact-view.css"); /* importerar compact-view styles */
 
 /* Temp */
-section.news-page-content a {
+section.photo-page-content a {
     color: #fff;
 }
