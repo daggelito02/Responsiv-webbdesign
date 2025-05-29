@@ -7,7 +7,8 @@
     margin: 0;
 }
 .top-menu-item:nth-child(5) {
-    margin-left: auto;  /* Skapar utrymme mellan de första tre och de sista två */
+    margin-left: auto;   /* Skapar utrymme mellan de första tre och de sista två */
+    
 }
 .top-menu-link,
 .top-menu-link:visited {
@@ -27,10 +28,10 @@
 .top-menu-link.selected:hover {
     background-color: var(--colo-link-selected-background);
     color: var(--color-main-white);
-    /* border-left: 1px solid var(--colo-link-border);
+    border-left: 1px solid var(--colo-link-border);
     border-right: 1px solid var(--colo-link-border);
     padding-left: calc(.8rem - 1px);
-    padding-right: calc(.8rem - 1px); */
+    padding-right: calc(.8rem - 1px);
 }
 .top-menu-link.selected--news {
     border-bottom: 2px solid var(--color-main-white);
