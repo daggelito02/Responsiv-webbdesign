@@ -43,16 +43,6 @@ header{
     display: flex;
     justify-content: center;
 }
-/* .hero {
-    background-image: url('../images/hero_bg.webp');
-    min-height: 400px;
-    max-height: 400px;
-    width: 100%;
-    height: inherit;
-    background-position-x: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 .breadcrumb-list {
     padding: 0;
     margin-top: .5rem;
@@ -92,6 +82,9 @@ p {
 }
 .italic {
     font-style: italic;
+}
+ul {
+    margin: .5rem 1rem 1rem -1.4rem;
 }
 .photo-grid {
     display: grid;
