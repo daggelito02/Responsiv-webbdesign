@@ -12,8 +12,3 @@ namnen på filerna ska vara talande för området css:en berör */
 @import url("about.css"); /* importerar about styles */
 @import url("tip.css"); /* importerar tip styles */
 @import url("compact-view.css"); /* importerar compact-view styles */
-
-/* Temp */
-section.photo-page-content a {
-    color: #fff;
-}

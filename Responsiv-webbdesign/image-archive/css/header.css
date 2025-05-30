@@ -25,10 +25,10 @@
 }
 .top-menu-link.selected,
 .top-menu-link.selected:hover {
-    background-color: var(--colo-link-selected-background);
+    background-color: var(--color-link-selected-background);
     color: var(--color-main-white);
-    border-left: 1px solid var(--colo-link-border);
-    border-right: 1px solid var(--colo-link-border);
+    border-left: 1px solid var(--color-link-border);
+    border-right: 1px solid var(--color-link-border);
     padding-left: calc(.8rem - 1px);
     padding-right: calc(.8rem - 1px);
 }
@@ -41,7 +41,7 @@
 }
 .top-menu-link:focus {
     color: var(--color-main-white);
-    background-color: var(--colo-link-focus-background);
+    background-color: var(--color-link-focus-background);
 }
 .top-menu { 
     border-top: 1px solid var(--color-border);
@@ -66,16 +66,16 @@
 }
 .top-menu-link:focus .material-symbols-outlined.home {
     color: var(--color-main-white);
-    background-color: var(--colo-link-focus-background);
+    background-color: var(--color-link-focus-background);
 }
 .selected .material-symbols-outlined.home {
     color: var(--color-main-white);
-    background: var(--colo-link-selected-background);
+    background: var(--color-link-selected-background);
     /* font-size: 1.3rem;
     position: relative;
     top: 1px; */
 }
 .top-menu-link.selected:hover .material-symbols-outlined.home {
     color: var(--color-main-white);
-    background: var(--colo-link-selected-background);
+    background: var(--color-link-selected-background);
 }

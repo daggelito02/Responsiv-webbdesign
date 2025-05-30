@@ -149,6 +149,21 @@ ul {
     font-size: 18px;
 }
 
+.photo-galley-link {
+    color: var(--color-base-font);
+}
+.photo-galley-link:hover {
+    color: var(--color-main-black);
+    background-color: var(--color-link-hover);
+}
+.photo-galley-link .open-new-window {
+    position: relative;
+    left: 1px;
+}
+.photo-galley-link:hover .open-new-window {
+    color: var(--color-main-black);
+}
+
 .button-accept:hover {
     background-color: var(--color-button-accept-hover);
 }

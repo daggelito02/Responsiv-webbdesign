@@ -9,10 +9,12 @@
     --color-main-black: #222;
     --color-base-font: #fff;
     --color-base-font-outgreyed: #999;
-    --colo-link-selected-background: #333;
-    --colo-link-focus-background: #cdcdcd;
-    --colo-link-border-bottom: #777;
-    --colo-link-border: #888;
+    --color-link-selected-background: #333;
+    --color-link-button: #323232;
+    --color-link-button-hover: #565656;
+    --color-link-focus-background: #cdcdcd;
+    --color-link-border-bottom: #777;
+    --color-link-border: #888;
     --color-link-hover: #fff;
     --color-border: #fff;
     --color-border-black: #999;

@@ -97,7 +97,7 @@
     .top-menu-link.selected--news .level2indicator::after {
         content: '';
         display: inline-block;
-        border-bottom: 2px solid var(--colo-link-border-bottom);
+        border-bottom: 2px solid var(--color-link-border-bottom);
         position: absolute;
         left: 0;
         bottom: -11px;
