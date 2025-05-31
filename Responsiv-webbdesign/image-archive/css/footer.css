@@ -16,9 +16,15 @@ footer {
     margin: 0;
     padding-right: .2rem;
     font-size: 1rem;
+    width: 100%;
+    display: flex
+;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+    justify-content: center;
 }
 .footer-section .material-symbols-outlined {
-    top: 3px;
+    top: 5px;
     left: -2px;
     z-index: -1;
 }

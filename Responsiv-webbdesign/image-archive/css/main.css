@@ -42,17 +42,19 @@ header{
 .main-content-area--center {
     display: flex;
     justify-content: center;
+    margin-bottom: 1rem;
 }
 .breadcrumb-list {
     padding: 0;
     margin-top: .5rem;
     margin-bottom: 1.5rem;
 }
-.breadcrumb-list a:hover {
-    background-color: var(--color-link-hover);
-}
 .breadcrumb-list a:visited {
     color: var(--color-main-white);
+}
+.breadcrumb-list a:hover {
+    color: var(--color-main-black);
+    background-color: var(--color-link-hover);
 }
 .breadcrumb-item {
     padding-right: .5rem;
@@ -120,12 +122,13 @@ ul {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: rgba(0, 0, 0, 0.92);
     color: white;
     text-align: center;
     padding: 15px;
     display: none;
     z-index: 1000;
+    border-top: .1px solid #333;
 }
 
 .cookie-container p {
@@ -139,8 +142,8 @@ ul {
     padding-left: .5rem;
 }
 .button-accept {
-    background-color: var(--color-button-accept);
-    color: white;
+    background-color: var(--color-link-button);
+    color: var(--color-main-white);
     border: solid #999 1px;
     padding: 10px 20px;
     margin-left: 20px;
@@ -165,7 +168,7 @@ ul {
 }
 
 .button-accept:hover {
-    background-color: var(--color-button-accept-hover);
+    background-color: var(--color-link-button-hover);
 }
 .accept-cookie-link {
     color: var(--color-main-white);
