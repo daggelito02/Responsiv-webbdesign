@@ -1,7 +1,6 @@
 :root {
     /* Size units */
-    --main-aria-pagetype-max-width: 1440px;
-    /* --photo-page-content-max-width: 1024px; not in use */
+    --main-aria-pagetype-max-width: 90rem;
 
     /* Color units */
     --color-main-background: #000;
