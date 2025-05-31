@@ -1,12 +1,12 @@
 footer { 
-    border-top: 1px solid var(--color-border);
-    border-bottom: 1px solid var(--color-border);
+    border-top: 0.0625rem solid var(--color-border);
+    border-bottom: 0.0625rem solid var(--color-border);
 }
 footer {
     grid-area: footer; /* mappar footer kontainern grid rad */
     display: flex;
     justify-content: center;
-    padding: .5rem 0;
+    padding: 0.5rem 0;
 }
 .footer-section {
     display: flex;
@@ -14,17 +14,16 @@ footer {
 }
 .footer-text {
     margin: 0;
-    padding-right: .2rem;
+    padding-right: 0.2rem;
     font-size: 1rem;
     width: 100%;
-    display: flex
-;
+    display: flex;
     flex-wrap: wrap;
     padding: 0 2rem;
     justify-content: center;
 }
 .footer-section .material-symbols-outlined {
-    top: 5px;
-    left: -2px;
+    top: 0.3125rem;
+    left: -0.125rem;
     z-index: -1;
 }

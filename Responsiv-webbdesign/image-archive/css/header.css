@@ -13,28 +13,26 @@
 .top-menu-link:visited {
     display: inline-flex;
     text-decoration: none;
-    padding: .6rem .8rem;
+    padding: 0.6rem 0.8rem;
     color: var(--color-base-font); 
     font-weight: 600;
     position: relative;
 }
 .top-menu-link:hover {
     background-color: var(--color-link-hover);
-    /* border-bottom: 2px solid var(--color-base-font); */
     color: var(--color-main-black);
 }
 .top-menu-link.selected,
 .top-menu-link.selected:hover {
     background-color: var(--color-link-selected-background);
     color: var(--color-main-white);
-    border-left: 1px solid var(--color-link-border);
-    border-right: 1px solid var(--color-link-border);
-    padding-left: calc(.8rem - 1px);
-    padding-right: calc(.8rem - 1px);
+    border-left: 0.0625rem solid var(--color-link-border);
+    border-right: 0.0625rem solid var(--color-link-border);
+    padding-left: calc(0.8rem - 0.0625rem);
+    padding-right: calc(0.8rem - 0.0625rem);
 }
 .top-menu-link.selected--news {
-    border-bottom: 2px solid var(--color-main-white);
-
+    border-bottom: 0.125rem solid var(--color-main-white);
 }
 .top-menu-link.selected:hover {
     cursor: auto;
@@ -44,8 +42,8 @@
     background-color: var(--color-link-focus-background);
 }
 .top-menu { 
-    border-top: 1px solid var(--color-border);
-    border-bottom: 1px solid var(--color-border);
+    border-top: 0.0625rem solid var(--color-border);
+    border-bottom: 0.0625rem solid var(--color-border);
 }
 .top-menu-text { 
     padding-left: 1.3rem;
@@ -56,8 +54,8 @@
     color: var(--color-main-white);
     font-size: 1.3rem;
     position: absolute;
-    top: 11px;
-    left:4px;
+    top: 0.6875rem;
+    left: 0.25rem;
     z-index: 0;
 }
 .top-menu-link:hover .material-symbols-outlined.home {
@@ -71,9 +69,6 @@
 .selected .material-symbols-outlined.home {
     color: var(--color-main-white);
     background: var(--color-link-selected-background);
-    /* font-size: 1.3rem;
-    position: relative;
-    top: 1px; */
 }
 .top-menu-link.selected:hover .material-symbols-outlined.home {
     color: var(--color-main-white);

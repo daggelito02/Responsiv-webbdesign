@@ -29,11 +29,11 @@ header{
 }
 .logo-container {
     background-color: var(--color-main-background);
-    margin: .5rem 0 1.5rem;
+    margin: 0.5rem 0 1.5rem;
     display: flex;
     justify-content: center;
 }
- .main-content-area, .top-menu-list {
+.main-content-area, .top-menu-list {
     padding: 0 2rem;
 }
 .main-content-area {
@@ -46,7 +46,7 @@ header{
 }
 .breadcrumb-list {
     padding: 0;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
     margin-bottom: 1.5rem;
 }
 .breadcrumb-list a:visited {
@@ -57,7 +57,7 @@ header{
     background-color: var(--color-link-hover);
 }
 .breadcrumb-item {
-    padding-right: .5rem;
+    padding-right: 0.5rem;
 }
 main {
     grid-area: main-content; /* mappar main kontainern grid rad */
@@ -65,16 +65,16 @@ main {
 h1 {
     font-size: var(--h1-font-size);
     font-weight: 500;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
 }
 h2 {
     font-size: var(--h2-font-size);
     font-weight: 500;
-    margin: .5rem 0 1.5rem;
+    margin: 0.5rem 0 1.5rem;
 }
 h3 {
     font-size: var(--h3-font-size);
-    margin-bottom: .2rem;
+    margin-bottom: 0.2rem;
 }
 p {
     margin: 0 0 1.2rem;
@@ -86,11 +86,11 @@ p {
     font-style: italic;
 }
 ul {
-    margin: .5rem 1rem 1rem -1.4rem;
+    margin: 0.5rem 1rem 1rem -1.4rem;
 }
 .photo-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(332.1px, 1fr)); /* Tre kolumner */
+    grid-template-columns: repeat(auto-fit, minmax(20.75625rem, 1fr)); /* Tre kolumner */
     gap: 1.5rem;
     position: relative;
     padding-top: 4rem;
@@ -98,9 +98,9 @@ ul {
 .header-grid {
     position: absolute;
 }
-@media (max-width: 1100px) {
+@media (max-width: 68.75rem) {
     .photo-grid {
-        grid-template-columns: repeat(auto-fit, minmax(309.1px, 1fr)); /* Blir två kolumner */
+        grid-template-columns: repeat(auto-fit, minmax(19.318125rem, 1fr)); /* Blir två kolumner */
     }
 }
 .photo-page-content {
@@ -111,9 +111,9 @@ ul {
 .material-symbols-outlined {
     font-size: 1rem;
     position: relative;
-    top: 3px;
-    padding-left: 4px;
-    right: 5px;
+    top: 0.1875rem;
+    padding-left: 0.25rem;
+    right: 0.3125rem;
     color: var(--color-base-font);
 }
 /* Css för cookie consent */
@@ -125,10 +125,10 @@ ul {
     background-color: rgba(0, 0, 0, 0.92);
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 0.9375rem;
     display: none;
     z-index: 1000;
-    border-top: .1px solid #333;
+    border-top: 0.00625rem solid #333;
 }
 
 .cookie-container p {
@@ -139,17 +139,17 @@ ul {
 .cookie-container .open-new-window {
     background-color: transparent;
     color: var(--color-main-white);
-    padding-left: .5rem;
+    padding-left: 0.5rem;
 }
 .button-accept {
     background-color: var(--color-link-button);
     color: var(--color-main-white);
-    border: solid #999 1px;
-    padding: 10px 20px;
-    margin-left: 20px;
+    border: solid #999 0.0625rem;
+    padding: 0.625rem 1.25rem;
+    margin-left: 1.25rem;
     cursor: pointer;
-    border-radius: 5px;
-    font-size: 18px;
+    border-radius: 0.3125rem;
+    font-size: 1.125rem;
 }
 
 .photo-galley-link {
@@ -161,7 +161,7 @@ ul {
 }
 .photo-galley-link .open-new-window {
     position: relative;
-    left: 1px;
+    left: 0.0625rem;
 }
 .photo-galley-link:hover .open-new-window {
     color: var(--color-main-black);
@@ -185,7 +185,7 @@ ul {
     left: 2rem;
     background-color: var(--color-main-black);
     color: var(--color-main-white);
-    padding: .625rem;
+    padding: 0.625rem;
     z-index: 1000;
     text-decoration: none;
     border-radius: 0.3125rem;

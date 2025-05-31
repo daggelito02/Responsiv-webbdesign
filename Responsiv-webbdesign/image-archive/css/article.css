@@ -2,7 +2,7 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    row-gap: .6rem;
+    row-gap: 0.6rem;
     color: var(--color-base-font);
 }
 .photo-article-header {
@@ -12,10 +12,10 @@
     margin: 0;
 }
 .photo-article-datetime {
-    margin-top: -.3rem;
+    margin-top: -0.3rem;
 }
 .photo-article-datetime--article {
-    margin-top: .1rem;
+    margin-top: 0.1rem;
     text-align: right;
     font-size: var(--datetime-font-size);
     color: var(--color-base-font);
@@ -25,7 +25,7 @@
     color: var(--color-base-font);
 }
 .photo-page-article__information {
-    border: 1px #fff solid;
+    border: 0.0625rem #fff solid;
     padding: 1rem 1.4rem;
     min-width: 16rem;
     height: fit-content;
@@ -33,15 +33,15 @@
 }
 .photo-article-image img { /* Höjd och vidd sätts för att det innehållet inte ska röra sig om bild-inladdniingen tar tid*/
     display: block;
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     width: 100%;
     max-height: 56.25%; /* Ihop med width får bilden ett 16/9 ratio */
-    border-radius: 3px;
+    border-radius: 0.1875rem;
     aspect-ratio: 16 / 9;
     object-fit: scale-down;
 }
 .photo-article-header {
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .photo-article-text {
     display: -webkit-box;
@@ -55,7 +55,7 @@
 }
 .photo-article-link:hover .photo-article-header {
     text-decoration: underline;
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .photo-article-image--about {
     max-width: 45%;
@@ -79,11 +79,11 @@
     max-width: 70%; 
 }
 .photo-page-article__image img {
-    border-radius: 2px;
+    border-radius: 0.125rem;
 }
 .photo-page-article__image + h1 {
     margin-top: 1rem;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
 }
 .photo-page-article__ingress {
     font-size: var(--ingress-font-size);
@@ -94,7 +94,7 @@
     margin: 0;
 }
 .photo-page-article__text-section {
-    margin: .2rem 0 1rem;
+    margin: 0.2rem 0 1rem;
 }
 .photo-page-article .photo-page-article__text-section p {
     margin: 0;
@@ -103,7 +103,7 @@
     margin: 0 0 1rem;
 }
 .photo-page-article__divider {
-    height: 1px;
+    height: 0.0625rem;
     background-color: var(--color-border);
     transform: scaleY(0.5);
     transform-origin: center;
@@ -114,14 +114,14 @@
     align-items: center;
     background-color: var(--color-link-button);
     color: var(--color-main-white);
-    padding: 8px 1.2rem;
-    font-size: 16px;
+    padding: 0.5rem 1.2rem;
+    font-size: 1rem;
     border: none;
     border-radius: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
     text-decoration: none;
-    margin-bottom: .4rem;
+    margin-bottom: 0.4rem;
     max-height: 2.5rem;
     align-items: center;
 }
@@ -135,10 +135,10 @@
 .material-symbols-outlined.download {
     font-size: 1.4rem;
     position: relative;
-    top: -1px;
-    left: 4px;
+    top: -0.0625rem;
+    left: 0.25rem;
 }
-@media (max-width: 768px) { /* Media query som sätter full bredd stående ipad mini  */
+@media (max-width: 48rem) { /* Media query som sätter full bredd stående ipad mini  */
     .photo-page-article__wrapper--portrait {
         flex-wrap: wrap;
     }
@@ -153,7 +153,7 @@
     .photo-page-article__information {
         display: flex;
         flex-wrap: wrap;
-        padding: .5rem 1.2rem;
+        padding: 0.5rem 1.2rem;
         justify-content: space-between;
         column-gap: 1.5rem;
     }
